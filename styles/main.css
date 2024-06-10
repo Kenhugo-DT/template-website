@@ -1,0 +1,35 @@
+@import "./header.css";
+@import"./hero.css";
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: rgb(204, 208, 209);
+    background-color: rgb(23, 23, 23);
+}
+
+main{
+    min-height: calc(100vh - 80px);
+    padding-inline: 64px;
+    display: grid;
+    gap: 64px;
+     
+}
+ section{
+     border: 2px solid black ;
+     background-color: antiquewhite;
+
+ }
+
+section :last-of-type{
+    margin-bottom: 64px;
+}
+    
+
+ 
+

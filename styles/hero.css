@@ -1,0 +1,43 @@
+section.hero {
+    min-height: calc(100vh - 80px);
+    background-color: transparent;
+    border:none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 36px;
+}
+
+section.hero div.hero-text {
+    display: grid ;
+    gap: 16px;
+}
+
+section.hero h1 {
+    font-size: 2.6rem;
+    color: blanchedalmond;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section.hero div.hero-text p {
+     font-size: 1.3rem;
+}
+
+/*section.hero h1, section.hero p {
+    height: fit-content;
+} */
+
+section.hero button 
+{
+    background-color: rgb(64, 62, 71);
+    text-decoration: none;
+    border: 2px solid rgb(116, 120, 130);
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 2px 2px 3px rgb(23, 25, 30);
+}
+
+section.hero button a{
+    
+} 
