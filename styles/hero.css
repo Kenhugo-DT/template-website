@@ -28,7 +28,7 @@ section.hero div.hero-text p {
     height: fit-content;
 } */
 
-section.hero button 
+/*"section.hero button 
 {
     background-color: rgb(64, 62, 71);
     text-decoration: none;
@@ -39,5 +39,6 @@ section.hero button
 }
 
 section.hero button a{
+    text-decoration: none;
     
-} 
+} "*/

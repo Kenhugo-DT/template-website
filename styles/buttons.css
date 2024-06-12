@@ -1,0 +1,14 @@
+button.standard-button {
+
+    background-color: rgb(64, 62, 71);
+    text-decoration: none;
+    border: 2px solid rgb(116, 120, 130);
+    border-radius: 8px;
+    padding: 8px;
+    box-shadow: 2px 2px 3px rgb(23, 25, 30);
+}
+
+section.hero button a{
+    text-decoration: none;
+    
+} 

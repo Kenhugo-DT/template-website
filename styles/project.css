@@ -1,0 +1,44 @@
+section.projects {
+    flex-direction: column;
+    gap: 24px;
+}
+
+section.projects div.projects-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+section.project div.project-card {
+   width: 300px;
+   display: grid;
+   gap: 16px;
+   background-color: rgb(88, 87, 87);
+
+}
+
+section.projects div.project-card h3 {
+
+}
+
+section.projects div.project-card figure {
+   max-width: 300px;
+}
+
+section.projects div.project-card figure img {
+   width: 100%;
+}
+
+section.projects div.project-card p {
+
+}
+
+section.projects div.project-card button {
+
+}
+
+section.projects div.project-card button a {
+
+}
