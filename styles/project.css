@@ -15,7 +15,7 @@ section.project div.project-card {
    width: 300px;
    display: grid;
    gap: 16px;
-   background-color: rgb(88, 87, 87);
+   background-color: rgb(69, 69, 69);
    padding: 16px;
 }
 

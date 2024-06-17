@@ -7,6 +7,12 @@ section.hero {
     flex-direction: column;
     justify-content: center;
     gap: 36px;
+    border-radius: 0;
+    margin-inline: 0;
+    margin-top: 0;
+    background-image: url(../public/sexybil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 section.hero div.hero-text {

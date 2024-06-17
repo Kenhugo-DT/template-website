@@ -3,6 +3,8 @@
 @import"./about.css";
 @import"./project.css";
 @import"./buttons.css";
+@import"./footer.css";
+
 
 * {
     padding: 0;
@@ -25,6 +27,8 @@ main{
      
 }
  section{
+    margin-inline: 64px;
+    margin-top: 128px;
      /*border: 2px solid black ; */
      display: flex;
      align-items: center;
@@ -35,7 +39,12 @@ main{
  }
 
 section :last-of-type{
-    margin-bottom: 64px;
+    margin-bottom: 128px;
+}
+
+div.divider {
+    background-color: blueviolet;
+    height: 160px;
 }
     
 

@@ -1,0 +1,32 @@
+footer {
+    background-color: rgb(64, 62, 71);
+    height: 160px;
+    padding-inline: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div .contact-info {
+    display: grid;
+    gap: 4px;
+
+}
+
+
+footer div .contact-info p a {
+    color: rgb(52, 50, 48);
+}
+
+footer nav {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+footer nav a {
+
+}
+
+
