@@ -1,6 +1,6 @@
 header{
-    background-color: rgb(64, 62, 71);
-    color: rgb(211, 211, 222);
+    background-color: var(--primary);
+    color: var(--white);
     height: 80px;
     padding-inline: 64px;
     display: flex;
@@ -24,7 +24,7 @@ header nav {
 }
 
 header nav a {
-    color: rgb(188, 193, 206);
+    color: var(--accent);
     text-decoration: none;
     border: 2px solid rgb(116, 120, 130);
     border-radius: 8px;

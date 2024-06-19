@@ -13,17 +13,28 @@
     scroll-behavior: smooth;
 }
 
+:root {
+    --primary: #282B2D ;
+    --secondary: #4E5256 ;
+    --tertiery:    ;
+    --accent: #99E4FF;
+
+    --black: #131516;
+    --white: #DAE7E6;
+    --grey: #7E858B;
+}
+
 body{
-    color: rgb(191, 210, 215);
-    background-color: rgb(23, 23, 23);
+    color: var(--white);
+    background-color: var(--black);
     overflow-x: hidden;
 }
 
 main{
-    min-height: calc(100vh - 80px);
-    padding-inline: 64px;
+    /*min-height: calc(100vh - 80px);
+    padding-inline: 64px; */
     display: grid;
-    gap: 64px;
+    /*gap: 64px; */
      
 }
  section{
@@ -33,7 +44,7 @@ main{
      display: flex;
      align-items: center;
      padding: 80px;
-     background-color: rgb(98, 97, 96);
+     background-color: var(--grey);
      border-radius: 16px;
 
  }
