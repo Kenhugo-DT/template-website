@@ -11,11 +11,11 @@ section.projects div.projects-wrapper {
     gap: 16px;
 }
 
-section.project div.project-card {
+section.projects div.project-card {
    width: 300px;
    display: grid;
    gap: 16px;
-   background-color: rgb(69, 69, 69);
+   background-color: var(--primary);
    padding: 16px;
 }
 
@@ -25,10 +25,13 @@ section.projects div.project-card h3 {
 
 section.projects div.project-card figure {
    max-width: 300px;
+   /* object-fit: cover; */
 }
 
 section.projects div.project-card figure img {
-   width: 100%;
+   width: 100%;   
+   /* height: 100%; */
+   
 }
 
 section.projects div.project-card p {

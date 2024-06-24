@@ -5,12 +5,12 @@ section.hero {
     display: flex;
     align-items: center;
     flex-direction: column;
-    justify-content: center;
+    justify-content: top;
     gap: 36px;
     border-radius: 0;
     margin-inline: 0;
     margin-top: 0;
-    background-image: url(../public/sexybil.png);
+    background-image: url(../public/bimmerbakgrunn.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -22,12 +22,14 @@ section.hero div.hero-text {
 
 section.hero h1 {
     font-size: 2.6rem;
-    color: var(--white);
+    color: var(--accent);
     font-family: Arial, Helvetica, sans-serif;
 }
 
 section.hero div.hero-text p {
      font-size: 1.3rem;
+     color: var(--black);
+     width: 40%
 }
 
 /*section.hero h1, section.hero p {
