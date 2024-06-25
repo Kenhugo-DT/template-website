@@ -1,13 +1,22 @@
 section.about {
-   
+    background-image: url(../public/msportlines.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
    
 }
 
 
 section.about h2 {
     margin-bottom: 16px;
+    flex-direction: row;
     text-align: center;
-    
+    font-size: 2.0rem;
+    color: var(--accent);
+}
+
+section.about div.aboutbmw {
+    justify-content: left;
 }
 
 section.about figure {
@@ -22,7 +31,8 @@ section.about figure img {
 
 
 section.about ul {
+    flex-direction: row;
     padding: 32px;
     text-align: left;
-    font-size: large;
+    font-size: 1.2rem;
 }

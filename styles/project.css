@@ -1,6 +1,15 @@
 section.projects {
     flex-direction: column;
     gap: 24px;
+    background-image: url(../public/msportlines.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+section.projects h2 {
+   font-size: xx-large;
+   color: var(--accent);
 }
 
 section.projects div.projects-wrapper {
@@ -9,18 +18,22 @@ section.projects div.projects-wrapper {
     justify-content: center;
     align-items: center;
     gap: 16px;
-}
-
-section.projects div.project-card {
-   width: 300px;
-   display: grid;
-   gap: 16px;
-   background-color: var(--primary);
-   padding: 16px;
+    
+   }
+   
+   section.projects div.project-card {
+      width: 300px;
+      display: grid;
+      gap: 16px;
+      background-color: var(--primary);
+      padding: 16px;
+      border-radius: 10px;
+      
 }
 
 section.projects div.project-card h3 {
-
+   text-align: center;
+   
 }
 
 section.projects div.project-card figure {
@@ -31,7 +44,7 @@ section.projects div.project-card figure {
 section.projects div.project-card figure img {
    width: 100%;   
    /* height: 100%; */
-   
+    border-radius: 10px;
 }
 
 section.projects div.project-card p {
